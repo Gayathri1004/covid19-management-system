@@ -15,6 +15,6 @@
 - CSS
 - JS
 - Materialize
-- ajax
+- Ajax
 
 
