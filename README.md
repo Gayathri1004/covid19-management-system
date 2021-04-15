@@ -7,7 +7,7 @@
 - This will effectively reduce the infection rates, help the common people and empower medical professionals across the world to help more patients recover and battle COVID-19 through improved telemedicine and virtual care.
 
 ## Backend languages used
-- Php
+- PHP
 - MySQL
 
 ## Frontend languages used 
