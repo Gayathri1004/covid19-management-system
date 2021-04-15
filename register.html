@@ -1,0 +1,112 @@
+
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<!--Import Google Icon Font-->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+<link rel="stylesheet" href="regani.css">
+</head>
+
+<style>
+
+body {
+background: #222;
+background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+background-fill-mode: rgba(0,0,0,0.5);
+display: flex;
+flex-direction: column;
+min-height: 120vh;
+}
+main {
+flex: 1 0 auto;
+}
+
+header{
+min-height: 50px;
+}
+</style>
+<body>
+<header>
+<div class="nav-extended">
+<nav style="min-height: 100px ">
+<nav class="nav-wrapper red ">
+<a href="#" class="brand-logo"><h4><span class="white-text left-align">  Covid-19 Management System</span></h4></a> 
+<a href="#" class="sidenav-trigger" data-target="mobile-links">
+<i class="material-icons">menu</i>
+</a>
+<ul class="right hide-on-med-and-down">
+<li><a href="main.php"><i class="material-icons white-text right">home</i><span class="white-text">Home </span> </a></li>
+</ul>
+</nav>
+</nav>
+</div>
+
+<ul class="sidenav" id="mobile-links">
+<li><a href="main.php">Home</a></li>
+<li><a href="roletype_login.php">Account</a></li>
+<li><a href="blogs.php">Blogs</a></li>>
+</ul>
+</header> 
+<main>
+
+<div class="container" style="margin-top: 15%;">
+<h1>
+<span>R</span>
+<span>e</span>
+<span>g</span>
+<span>i</span>
+<span>s</span>
+<span>t</span>
+<span>e</span>
+<span>r</span>
+<span>a</span>
+<span>t</span>
+<span>i</span>
+<span>o</span>
+<span>n</span>
+</h1>
+
+
+
+<p class="center">
+<br><br><br>
+<a href="dregister.php" class=" red waves-effect waves-light btn-large ">DOCTOR REGISTER</a>
+
+
+<br><br> <br>
+<a href="pregister.php" class="red waves-effect waves-light btn-large">PATIENT REGISTER</a>
+
+
+</p>  
+
+</main>
+
+<footer class="page-footer red">
+
+<div class="footer-copyright center-align" style="min-height=50px;">
+<div class="container">
+Copyright © 2021 Developed by Gayathri
+</div>
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+<script>
+$(document).ready(function(){ 
+$('.sidenav').sidenav();
+$('select').formSelect();
+});
+</script>
+
+</body></html>
+
